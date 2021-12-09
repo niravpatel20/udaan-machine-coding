@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/deal', (req, res) => {
+router.post('/deal', (req, res) => {
     res.send('From Deal');
 })
 

@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const dealRouter = require('./api/deal');
 const itemRouter = require('./api/item');

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const url = "mongodb+srv://nirav22:nirav22@advance-node-project.4xlae.mongodb.net/flipKart?retryWrites=true&w=majority"
+const url = process.env.DB_HOST;
 
 
 const connectToDB = async () => {
